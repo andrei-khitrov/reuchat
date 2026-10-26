@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>рэучат</title>
+  <meta name="description" content="Неофициальный чат студентов группы: темы, сроки, сводка дня в 18:00.">
+  <meta name="theme-color" content="#FCFCFC">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="рэучат">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="manifest" href="/reuchat/manifest.webmanifest">
+  <link rel="icon" href="/reuchat/icons/icon-192.png" type="image/png">
+  <link rel="apple-touch-icon" href="/reuchat/icons/apple-touch-icon.png">
+  <link rel="preload" href="/reuchat/fonts/manrope-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    // Theme before the first paint, so a dark phone never flashes white.
+    try { const t = JSON.parse(localStorage.getItem('reuchat:theme') || '"system"'); const d = t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches); document.documentElement.dataset.theme = d ? 'dark' : 'light'; } catch (e) {}
+  </script>
+  <script type="module" crossorigin src="/reuchat/assets/index-C19DhG3n.js"></script>
+  <link rel="stylesheet" crossorigin href="/reuchat/assets/index-CWnElRt-.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
